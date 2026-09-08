@@ -11,8 +11,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Mulish:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script>
 const SITE_SETTINGS = {
-  'phoneNumber': '+79185035434',
-  'psychicName': 'Елена',
+  'phoneNumber': '+79034892630',
+  'psychicName': 'Римма',
   'city': 'Краснодар',
   'address': 'г. Москва, ул. Северная, д. 324, офис 45',
   'enableRedirect': false,
@@ -21,14 +21,14 @@ const SITE_SETTINGS = {
   'siteUrl': 'https://tarolog-svet.ru/',
   'whatsappMessage': 'Здравствуйте, хочу обратиться к вам за помощью.',
   'telegramEnabled': 1,
-  'telegramNickname': 'Elenamag2021',
+  'telegramNickname': 'Mag_Rima',
   'yandexMetrikaId': '112333002',
   'psychicImageURL': 'https://raw.githubusercontent.com/antomimpuls/gadlka-vector.ru/main/92ddbc.jpg',
   'workingHours': 'ежедневно 08:30-21:30',
   'responseTime': '6-14 минут',
   'metrikaMessengerVisible': false
 };
-const PSYCHIC_NAME=SITE_SETTINGS.psychicName||'Елена';
+const PSYCHIC_NAME=SITE_SETTINGS.psychicName||'Римма';
 const PHONE_DIGITS=(SITE_SETTINGS.phoneNumber||'').replace(/\D/g,'');
 const WHATSAPP_MESSAGE=PSYCHIC_NAME ? `Здравствуйте, ${PSYCHIC_NAME}! Хочу обратиться к вам за помощью.` : 'Здравствуйте, хочу обратиться к вам за помощью.';
 const ENCODED_MESSAGE=encodeURIComponent(WHATSAPP_MESSAGE);
@@ -680,7 +680,7 @@ footer{background:#0b131a;padding:40px 0;text-align:center;border-top:1px solid 
 <div class="testimonial-header">
 <div class="avatar">Е</div>
 <div>
-<h4 style="margin:0 0 5px">Елена, 32 года, Екатеринбург</h4>
+<h4 style="margin:0 0 5px">Римма, 32 года, Екатеринбург</h4>
 <div class="stars">★★★★★</div>
 </div>
 </div>
@@ -1245,7 +1245,7 @@ function replaceNamePlaceholders(name){
 }
 
 function setImagesAndTexts(){
-    const psychicName = SETTINGS.psychicName || 'Елена';
+    const psychicName = SETTINGS.psychicName || 'Римма';
     replaceNamePlaceholders(psychicName);
     const heroName = document.getElementById('heroName');
     if (heroName) {
